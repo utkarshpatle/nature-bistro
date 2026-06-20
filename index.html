@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nature Bistro Cafe and Restaurant — a pure vegetarian café and restaurant in Pouni, Malanjkhand.">
+  <meta name="theme-color" content="#173d2b">
+  <title>Nature Bistro Cafe and Restaurant | Pure Vegetarian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nature Bistro home">
+        <img class="brand-logo" src="logo.png" alt="">
+        <span class="brand-name">
+          <strong>Nature Bistro</strong>
+          <small>Cafe &amp; Restaurant</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#about">Our story</a>
+        <a href="#visit">Visit</a>
+        <a class="nav-cta" href="tel:+919183158135">Call us</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-badges">
+        <span class="pure-veg-badge"><span aria-hidden="true">●</span> 100% Pure Vegetarian</span>
+        <span class="location-badge">Pouni, Malanjkhand</span>
+      </div>
+      <h1>Fresh food.<br><em>Unhurried moments.</em></h1>
+      <p class="hero-copy">Comforting flavours, fresh ingredients, and a warm corner made for good conversations.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#menu">Explore our menu</a>
+        <a class="button button-ghost" href="https://wa.me/919183158135?text=Hello%20Nature%20Bistro%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+      </div>
+      <div class="hero-note">
+        <span class="pulse"></span>
+        Open daily • 11:00 AM to 10:00 PM
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="plate">
+        <div class="leaf leaf-one"></div>
+        <div class="leaf leaf-two"></div>
+        <div class="tomato tomato-one"></div>
+        <div class="tomato tomato-two"></div>
+        <div class="pasta"></div>
+      </div>
+      <div class="herb herb-one">✦</div>
+      <div class="herb herb-two">✦</div>
+    </div>
+    <a class="scroll-cue" href="#menu" aria-label="Scroll to menu">↓</a>
+  </header>
+
+  <main>
+    <section class="intro container" aria-label="Highlights">
+      <article class="veg-highlight"><span>01</span><div><strong>100% Pure Vegetarian</strong><p>A completely vegetarian kitchen serving honest, flavourful food.</p></div></article>
+      <article><span>02</span><div><strong>Made Fresh</strong><p>Prepared with care using fresh ingredients.</p></div></article>
+      <article><span>03</span><div><strong>Feel at Home</strong><p>A relaxed place to pause, meet, and enjoy.</p></div></article>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">The complete menu</p>
+            <h2>Plenty to choose.<br><em>All in one place.</em></h2>
+          </div>
+          <p><strong id="menu-count">111 dishes</strong> across <span id="category-count">12 categories</span>, arranged with comfortable spacing for easy reading.</p>
+        </div>
+        <div class="menu-controls">
+          <div class="menu-tools">
+            <div class="search-wrap">
+              <label class="menu-search">
+                <span aria-hidden="true">⌕</span>
+                <input id="menu-search" type="search" placeholder="Search dishes or categories" aria-label="Search menu items" autocomplete="off" aria-controls="search-suggestions" aria-expanded="false">
+                <button class="clear-search" id="clear-search" type="button" aria-label="Clear search">×</button>
+              </label>
+              <div class="search-suggestions" id="search-suggestions" role="listbox" aria-label="Menu suggestions"></div>
+            </div>
+            <p>Prices in ₹</p>
+          </div>
+          <div class="filter-chips" id="filter-chips" role="group" aria-label="Filter menu items">
+            <button class="filter-chip active" type="button" data-filter="all">All dishes</button>
+            <button class="filter-chip" type="button" data-filter="popular">★ Popular</button>
+            <button class="filter-chip" type="button" data-filter="under-100">Under ₹100</button>
+            <button class="filter-chip" type="button" data-filter="100-199">₹100–₹199</button>
+            <button class="filter-chip" type="button" data-filter="200-plus">₹200+</button>
+          </div>
+        </div>
+        <nav class="category-nav" id="category-nav" aria-label="Menu categories"></nav>
+        <div class="menu-catalog" id="menu-catalog"></div>
+        <p class="menu-note">Cold drink prices are available at the restaurant. Price variants are shown in the same order as their listed options.</p>
+      </div>
+    </section>
+
+    <section class="story" id="about">
+      <div class="story-visual" aria-hidden="true">
+        <div class="story-card">
+          <span>Freshly made</span>
+          <strong>with a little<br>more care.</strong>
+        </div>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow dark">Our story</p>
+        <h2>Good food feels<br><em>like coming home.</em></h2>
+        <p>Nature Bistro began with a simple idea: serve fresh vegetarian food in a space where people can slow down and feel welcome.</p>
+        <p>Whether it’s a quick coffee, a family meal, or an evening with friends, we’re here to make it delicious.</p>
+        <a class="text-link" href="#visit">Come say hello <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="container">
+        <span class="quote-mark">“</span>
+        <blockquote>Simple ingredients.<br>Memorable flavours.<br><em>Warm hospitality.</em></blockquote>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="container visit-grid">
+        <div>
+          <p class="eyebrow dark">Find your way here</p>
+          <h2>Come hungry.<br><em>Leave happy.</em></h2>
+        </div>
+        <div class="visit-details">
+          <article><span>Location</span><p>Pouni, Malanjkhand<br>Madhya Pradesh, India</p></article>
+          <article><span>Contact</span><p><a href="tel:+919183158135">+91-9183158135</a><br><a href="https://wa.me/919183158135" target="_blank" rel="noopener">Chat on WhatsApp</a></p></article>
+          <article><span>Opening Hours</span><p>Open every day<br><strong>11:00 AM – 10:00 PM</strong></p></article>
+          <article><span>Connect &amp; Review</span>
+            <div class="social-actions">
+              <a class="social-button instagram" href="https://www.instagram.com/explore/search/keyword/?q=nature%20bistro%20malanjkhand" target="_blank" rel="noopener" aria-label="Find Nature Bistro on Instagram">
+                <span aria-hidden="true">◎</span> Instagram
+              </a>
+              <a class="social-button review" href="https://www.google.com/maps/search/?api=1&query=Nature+Bistro+Pouni+Malanjkhand" target="_blank" rel="noopener" aria-label="Review Nature Bistro on Google">
+                <span aria-hidden="true">★</span> Google Review
+              </a>
+            </div>
+          </article>
+          <article><span>Directions</span><p><a href="https://www.google.com/maps/search/?api=1&query=Nature+Bistro+Pouni+Malanjkhand" target="_blank" rel="noopener">Open in Google Maps ↗</a></p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#home"><img class="brand-logo" src="logo.png" alt=""><span class="brand-name"><strong>Nature Bistro</strong><small>Cafe &amp; Restaurant</small></span></a>
+      <p>100% Pure Vegetarian • Open daily, 11 AM – 10 PM</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+</body>
+</html>
