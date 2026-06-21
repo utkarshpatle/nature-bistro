@@ -2,39 +2,105 @@ const menuCategories = [
   {
     name: "Starters and Siders",
     items: [
-      ["Misal Pav", "69"],
+      ["Roasted Papad", "30"],
+      ["Fried Papad", "40"],
+      ["Masala Papad (Roasted / Fried)", "60"],
+      ["Green Salad", "79"],
+      ["Hara Bhara Kabab", "199"],
+      ["Paneer Pakoda", "169"],
+      ["Cheese Balls", "189"],
+      ["French Fries - Classic / Peri-peri / Cheese", "69 / 79 / 99"],
+      ["Crispy Corn / Crispy Corn Bhel", "129 / 149"],
+      ["Onion Pakoda / Aloo Pakoda", "99"],
+      ["Vegetable Raita", "49"],
+      ["Boondi Raita", "49"],
+      ["Plain Curd", "39"],
+      ["Tadka Curd", "49"],
+      ["Wada Pav", "40"]      
+    ]
+  },
+  {
+    name: "Snacks",
+    items: [
       ["Special Misal Pav (with papad, achar, dahi, salad)", "99"],
-      ["Chhole Bhature (2 bhature)", "89"],
+      ["Extra Pav (for Misal Pav)", "10"],
       ["Pav Bhaji", "69"],
-      ["French Fries - Classic / Peri-peri / Cheese", "65 / 75 / 85"],
-      ["Crispy Corn / Crispy Corn Bhel", "109 / 119"],
-      ["Onion Rings / Onion Pakoda / Aloo Pakoda", "99"],
-      ["Veg Sandwich", "119"],
+      ["Extra Pav (for Pav Bhaji)", "15"],
+      ["Chhole Bhature (2 bhature)", "129"],
+      ["Extra Bhatura/Chhole Bowl", "45/40"],
+      ["Veg Cheese Sandwich", "129"],
       ["Cheese Sandwich", "129"],
       ["Paneer Sandwich", "139"],
       ["Corn and Cheese Sandwich", "139"],
       ["Bombay Masala Sandwich", "139"],
-      ["Wada Pav", "30"],
-      ["Roasted Papad", "30"],
-      ["Fried Papad", "40"],
-      ["Masala Papad (Roasted / Fried)", "60"],
-      ["Hara Bhara Kabab", "169"],
-      ["Paneer Pakoda", "169"],
-      ["Soup - Cream of Tomato", "129"],
-      ["Soup - Manchow / Hot and Sour", "139"],
-      ["Soup - Corn and Mushroom", "149"]
+
     ]
   },
   {
-    name: "Udupi Cuisine",
+    name: "Soup",
+    items: [
+      ["Soup - Cream of Tomato", "129"],
+      ["Soup - Manchow / Hot and Sour", "139"],
+      ["Soup - Corn and Mushroom", "149"],
+      ["Soup - Lemon Coriander", "149"]
+    ]
+  },
+  {
+    name: "Chinese",
+    items: [
+      ["Hakka Noodles", "119"],
+      ["Schezwan Noodles", "139"],
+      ["Chilly Garlic Noodles", "179"],
+      ["Veg Triple Noodles (Large Portion)", "259"],
+      ["Fried Rice", "139"],
+      ["Schezwan Fried Rice", "159"],
+      ["Manchurian (Rice / Noodles)", "169"],
+      ["Manchurian (Dry / Gravy)", "119 / 129"],
+      ["Gobhi Manchurian", "139"],
+      ["Paneer Chilli", "189"],
+      ["Paneer 65", "179"],
+      ["Veg 65", "159"],
+      ["Veg Crispy", "159"],
+      ["Honey Chilli Potato", "159"]
+    ]
+  },
+  {
+    name: "South Indian",
     items: [
       ["Plain Dosa", "65"],
       ["Masala Dosa", "75"],
+      ["Cut Masala Dosa", "85"],
       ["Mysore Masala Dosa", "89"],
-      ["Paneer Dosa", "109"],
-      ["Cheese Dosa", "109"],
-      ["Idli Sambhar Chutney (4 pcs idli)", "59"],
-      ["Onion / Tomato Uttapam", "69"]
+      ["Paneer Dosa", "129"],
+      ["Cheese Dosa", "129"],
+      ["Onion / Tomato Uttapam", "79"]
+    ]
+  },
+  {
+    name: "Italian Pastas",
+    items: [
+      ["Red Sauce", "189"],
+      ["Pink Sauce", "189"],
+      ["White Sauce", "189"],
+    ]
+  },
+  {
+    name: "Pizzas",
+    items: [
+      ["Margarita", "119"],
+      ["Double Cheese Margarita", "149"],
+      ["Onion / Capsicum / Tomato", "129"],
+      ["Double Cheese Onion / Capsicum / Tomato", "159"],
+      ["Corn Mushroom", "149"],
+      ["Double Cheese Corn Mushroom", "179"],
+      ["Farmhouse", "149"],
+      ["Double Cheese Farmhouse", "179"],
+      ["Paneer Pizza", "159"],
+      ["Double Cheese Paneer Pizza", "189"],
+      ["Veggies Overload", "169"],
+      ["Double Cheese Veggies Overload", "199"],
+      ["Stuffed Cheese Garlic Bread with Cheese Dip", "179"],
+      ["***Packaging Charges for Parcel****", "10"]
     ]
   },
   {
@@ -43,57 +109,6 @@ const menuCategories = [
       ["Veg Sizzler", "339"],
       ["Chinese Sizzler", "359"],
       ["Paneer Sizzler", "359"]
-    ]
-  },
-  {
-    name: "Italian Pastas",
-    items: [
-      ["Red / Pink / White Sauce", "189"]
-    ]
-  },
-  {
-    name: "Pizzas",
-    items: [
-      ["Margarita", "119"],
-      ["Onion / Capsicum / Tomato", "129"],
-      ["Corn Mushroom", "139"],
-      ["Farmhouse", "149"],
-      ["Paneer Pizza", "159"],
-      ["Veggies Overload", "169"],
-      ["Stuffed Cheese Garlic Bread with Cheese Dip", "179"]
-    ]
-  },
-  {
-    name: "Brews and Tonics",
-    items: [
-      ["Cold Drinks (Sprite, Thums Up, Jeera, Maaza, Appy)", "Ask us"],
-      ["Tea", "30"],
-      ["Coffee", "40"],
-      ["Black Coffee", "25"],
-      ["Cold Coffee - Regular / With Ice Cream", "69 / 89"],
-      ["Cad B (Dark Chocolate Shake)", "85"],
-      ["Crushers - Orange, Strawberry, Pineapple, Mix Fruit (Water / Soda)", "55 / 70"],
-      ["Crushers - Mojito, Alphonso, Blue Lagoon, Litchi (Water / Soda)", "70 / 85"],
-      ["Milkshake - Oreo / KitKat", "99 / 109 / 119"],
-      ["Lemon Soda", "35"]
-    ]
-  },
-  {
-    name: "Chinatown Delicacies",
-    items: [
-      ["Hakka Noodles", "119"],
-      ["Schezwan Noodles", "139"],
-      ["Veg Triple Noodles (Large Portion)", "259"],
-      ["Fried Rice", "139"],
-      ["Schezwan Fried Rice", "159"],
-      ["Manchurian (Rice / Noodles)", "169"],
-      ["Manchurian (Dry / Gravy)", "119 / 129"],
-      ["Gobi Manchurian", "139"],
-      ["Paneer Chilli", "179"],
-      ["Paneer 65", "179"],
-      ["Veg 65", "159"],
-      ["Veg Crispy", "159"],
-      ["Honey Chilli Potato", "159"]
     ]
   },
   {
@@ -108,43 +123,91 @@ const menuCategories = [
     ]
   },
   {
+    name: "Hot and Cool Drinks",
+    items: [
+      ["Cold Drinks (Sprite, ThumsUp, Jeera, Maaza, Appy)", "Ask us"],
+      ["Tea", "30"],
+      ["Coffee", "40"],
+      ["Black Coffee", "30"],
+      ["Cold Coffee - Regular / With Ice Cream", "69 / 89"],
+      ["Mocktail - Orange, Strawberry, Pineapple, Mix Fruit (Water / Soda)", "55 / 70"],
+      ["Mocktail - Mojito, Alphonso, Blue Lagoon, Litchi (Water / Soda)", "70 / 85"],
+      ["Milkshake - Oreo / KitKat", "109 / 119"],
+      ["Lemon Soda", "49"],
+      ["***Packaging Charges for Parcel****", "10"]
+    ]
+  },
+  {
     name: "Roti and Rice",
     items: [
       ["Tawa Roti (Plain / Butter)", "15 / 20"],
-      ["Steam Rice", "100"],
-      ["Jeera Rice", "119"],
-      ["Peas Pulao", "139"],
-      ["Veg Pulao", "139"],
-      ["Paneer Pulao", "159"],
+      ["Steam Rice(Half/Full)", "60/100"],
+      ["Jeera Rice", "129"],
+      ["Onion Tomato Jeera Rice", "169"],
+      ["Peas Pulao", "159"],
+      ["Veg Pulao", "159"],
+      ["Paneer Pulao", "189"],
       ["Curd Rice", "159"],
-      ["Dal Khichdi", "159"],
       ["Veg Biryani (served with Raita / Gravy)", "189"],
       ["Paneer Biryani (served with Raita / Gravy)", "209"]
     ]
   },
   {
-    name: "Dal and Sabji",
+    name: "Dal",
     items: [
       ["Plain Dal", "100"],
       ["Dal Fry", "119"],
       ["Dal Tadka", "135"],
-      ["Sev Bhaji", "159"],
-      ["Chhole Masala", "159"],
-      ["Gobi Masala", "169"],
+      ["Dal Khichdi", "159"],
+    ]
+  },
+  {
+    name: "Seasonal Vegetable",
+    items: [
+      ["Sev Tamatar", "179"],
+      ["Sev Bhaji(Milk)", "189"],
+      ["Chhole Masala (Spicy)", "179"],      
+      ["Aloo Gobhi Matar", "179"],
       ["Mix Veg", "179"],
-      ["Veg Handi", "189"],
-      ["Veg Kadhai", "189"],
-      ["Paneer Masala", "219"],
-      ["Matar Paneer", "229"],
-      ["Palak Paneer*", "229"],
-      ["Paneer Butter Masala", "239"],
-      ["Paneer Do-Pyaza", "239"],
-      ["Methi Matar Malai", "239"],
-      ["Paneer Handi", "249"],
-      ["Paneer Kadhai", "249"],
-      ["Paneer Kolhapuri", "249"],
-      ["Paneer Tikka Masala", "269"],
-      ["Veg Anda Curry", "269"]
+      ["Aloo Bhuji", "179"],      
+      ["Jeera Aloo", "189"],          
+      ["Tamatar Chutney", "179"],  
+      ["Bhindi Masaa", "189"],
+      ["Corn Palak", "189"],      
+      ["Lehsuni Palak", "189"],
+      ["Dum Aloo", "199"]
+    ]
+  },
+  {
+    name: "Veg Special",
+    items: [
+      ["Veg Kadhai", "209"],    
+      ["Veg Handi", "209"],        
+      ["Veg Kofta", "269"],    
+      ["Malai Kofta", "289"],       
+      ["Methi Matar Malai", "289"],
+      ["Mushroom Masala", "289"],
+      ["Mutter Mushroom Masala", "289"],
+      ["Babycorn Mushroom Masala", "289"],
+      ["Kaaju Curry", "349"],
+      ["Kaaju Masala", "349"] 
+    ]
+  },
+  {
+    name: "Paneer",
+    items: [
+      ["Paneer Masala", "229"],
+      ["Palak Paneer", "249"],      
+      ["Paneer Hyderabadi", "259"],
+      ["Paneer Butter Masala (sweetish)", "259"],
+      ["Paneer Do-Pyaza", "259"],      
+      ["Matar Paneer", "259"],
+      ["Paneer Handi", "259"],
+      ["Paneer Kadhai", "259"],
+      ["Paneer Kolhapuri (Spicy)", "259"],
+      ["Paneer Lehsuni", "269"],
+      ["Paneer Tikka Masala (Spicy)", "279"],
+      ["Paneer Angara (Spicy)", "299"]
     ]
   },
   {
@@ -154,33 +217,33 @@ const menuCategories = [
       ["Vanilla Ice Cream with Choco Chips (1 Scoop / 2 Scoops)", "40 / 65"],
       ["Rasgulla (2 pcs)", "50"]
     ]
-  },
-  {
-    name: "Extras",
-    items: [
-      ["Butter", "20"],
-      ["Cheese", "30"],
-      ["Chhole Bowl", "40"],
-      ["Misal Bowl", "35"],
-      ["Pav (for Pav Bhaji)", "15"],
-      ["Pav (for Misal Pav)", "10"],
-      ["Bhatura", "30"],
-      ["Idli", "15"],
-      ["Exotic Veggies (Jalapeno, Olive, Paprika, Mushroom)", "30"],
-      ["Maggie Masala", "10"]
-    ]
   }
 ];
 
+
 const popularItems = new Set([
-  "Special Misal Pav (with papad, achar, dahi, salad)",
-  "Pav Bhaji",
-  "Masala Dosa",
-  "Farmhouse",
+  "Red / Pink / White Sauce",
+  "Chinese Sizzler",
+  "Crispy Corn / Crispy Corn Bhel",
+  "Bombay Masala Sandwich",
   "Cold Coffee - Regular / With Ice Cream",
   "Paneer Chilli",
-  "Paneer Butter Masala",
-  "Sizzling Brownie with Ice Cream"
+  "Wada Pav",
+  "Sizzling Brownie with Ice Cream",
+  "Soup - Manchow / Hot and Sour",
+  "Mysore Masala Dosa",
+  "Veggies Overload",
+  "Paneer Pizza",
+  "Stuffed Cheese Garlic Bread with Cheese Dip",
+  "Crushers - Mojito, Alphonso, Blue Lagoon, Litchi (Water / Soda)", "70 / 85",
+  "Veg Triple Noodles (Large Portion)",
+  "Manchurian (Rice / Noodles)",
+  "Honey Chilli Potato",
+  "Veg Biryani (served with Raita / Gravy)",
+  "Paneer Biryani (served with Raita / Gravy)",
+  "Dal Tadka",
+  "Veg Anda Curry",
+  "Babycorn Mushroom Masala"
 ]);
 
 const catalog = document.querySelector("#menu-catalog");
@@ -294,12 +357,12 @@ function renderMenu() {
     const id = slugify(category.name);
     return `<a class="category-link" href="#${id}">${category.name}<span>${category.items.length}</span></a>`;
   }).join("");
-
+  
   catalog.innerHTML = menuCategories.map(category => {
     const id = slugify(category.name);
     return `
-      <section class="menu-category" id="${id}" data-category="${escapeHtml(category.name)}">
-        <button class="category-heading" type="button" aria-expanded="true" aria-controls="${id}-items">
+      <section class="menu-category collapsed" id="${id}" data-category="${escapeHtml(category.name)}">
+        <button class="category-heading" type="button" aria-expanded="false" aria-controls="${id}-items">
           <span class="category-title">${category.name}</span>
           <span class="category-meta">
             <span class="category-count" aria-label="${category.items.length} items">${category.items.length}</span>
@@ -328,6 +391,7 @@ function renderMenu() {
   totalMenuItems = menuCategories.reduce((sum, category) => sum + category.items.length, 0);
   menuCount.textContent = `${totalMenuItems} dishes`;
   categoryCount.textContent = `${menuCategories.length} categories`;
+
 
   document.querySelectorAll(".category-heading").forEach(button => {
     button.addEventListener("click", () => {
