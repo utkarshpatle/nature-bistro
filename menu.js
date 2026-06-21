@@ -222,7 +222,7 @@ const menuCategories = [
 
 
 const popularItems = new Set([
-  "Red / Pink / White Sauce",
+  "White Sauce",
   "Chinese Sizzler",
   "Crispy Corn / Crispy Corn Bhel",
   "Bombay Masala Sandwich",
@@ -235,14 +235,14 @@ const popularItems = new Set([
   "Veggies Overload",
   "Paneer Pizza",
   "Stuffed Cheese Garlic Bread with Cheese Dip",
-  "Crushers - Mojito, Alphonso, Blue Lagoon, Litchi (Water / Soda)", "70 / 85",
+  "Mocktail - Mojito, Alphonso, Blue Lagoon, Litchi (Water / Soda)",
   "Veg Triple Noodles (Large Portion)",
   "Manchurian (Rice / Noodles)",
   "Honey Chilli Potato",
   "Veg Biryani (served with Raita / Gravy)",
   "Paneer Biryani (served with Raita / Gravy)",
   "Dal Tadka",
-  "Veg Anda Curry",
+  "Lemon Soda",
   "Babycorn Mushroom Masala"
 ]);
 
