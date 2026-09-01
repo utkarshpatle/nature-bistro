@@ -9,7 +9,7 @@ const menuCategories = [
       ["Hara Bhara Kabab", "199"],
       ["Paneer Pakoda", "169"],
       ["Cheese Balls", "189"],
-      ["French Fries - Classic / Peri-peri / Cheese", "69 / 79 / 99"],
+      ["French Fries - Classic / Peri-peri / Cheese", "89 / 99 / 129"],
       ["Crispy Corn / Crispy Corn Bhel", "129 / 149"],
       ["Onion Pakoda / Aloo Pakoda", "99"],
       ["Vegetable Raita", "49"],
@@ -48,32 +48,32 @@ const menuCategories = [
   {
     name: "Chinese",
     items: [
-      ["Hakka Noodles", "119"],
+      ["Hakka Noodles", "129"],
       ["Schezwan Noodles", "139"],
       ["Chilly Garlic Noodles", "179"],
       ["Veg Triple Noodles (Large Portion)", "259"],
       ["Fried Rice", "139"],
       ["Schezwan Fried Rice", "159"],
       ["Manchurian (Rice / Noodles)", "169"],
-      ["Manchurian (Dry / Gravy)", "119 / 129"],
-      ["Gobhi Manchurian", "139"],
+      ["Manchurian (Dry / Gravy)", "129 / 139"],
+      ["Gobhi Manchurian", "149"],
       ["Paneer Chilli", "189"],
       ["Paneer 65", "179"],
       ["Veg 65", "159"],
       ["Veg Crispy", "159"],
-      ["Honey Chilli Potato", "159"]
+      ["Honey Chilli Potato", "169"]
     ]
   },
   {
     name: "South Indian",
     items: [
-      ["Plain Dosa", "65"],
-      ["Masala Dosa", "75"],
-      ["Cut Masala Dosa", "85"],
-      ["Mysore Masala Dosa", "89"],
+      ["Plain Dosa", "79"],
+      ["Masala Dosa", "85"],
+      ["Cut Masala Dosa", "99"],
+      ["Mysore Masala Dosa", "109"],
       ["Paneer Dosa", "129"],
       ["Cheese Dosa", "129"],
-      ["Onion / Tomato Uttapam", "79"]
+      ["Onion / Tomato Uttapam", "99"]
     ]
   },
   {
@@ -82,6 +82,7 @@ const menuCategories = [
       ["Red Sauce", "189"],
       ["Pink Sauce", "189"],
       ["White Sauce", "189"],
+      ["Indian Masala Pasta", "189"]
     ]
   },
   {
@@ -169,7 +170,7 @@ const menuCategories = [
       ["Chhole Masala (Spicy)", "179"],      
       ["Aloo Gobhi Matar", "179"],
       ["Mix Veg", "179"],
-      ["Aloo Bhuji", "179"],      
+      ["Aloo Bhurji", "179"],      
       ["Jeera Aloo", "189"],          
       ["Tamatar Chutney", "179"],  
       ["Bhindi Masaa", "189"],
@@ -187,7 +188,7 @@ const menuCategories = [
       ["Malai Kofta", "289"],       
       ["Methi Matar Malai", "289"],
       ["Mushroom Masala", "289"],
-      ["Mutter Mushroom Masala", "289"],
+      ["Matar Mushroom Masala", "289"],
       ["Babycorn Mushroom Masala", "289"],
       ["Kaaju Curry", "349"],
       ["Kaaju Masala", "349"] 
@@ -207,7 +208,8 @@ const menuCategories = [
       ["Paneer Kolhapuri (Spicy)", "259"],
       ["Paneer Lehsuni", "269"],
       ["Paneer Tikka Masala (Spicy)", "279"],
-      ["Paneer Angara (Spicy)", "299"]
+      ["Paneer Angara (Spicy)", "329"],
+      ["Paneer Lacchedar", "329"]
     ]
   },
   {
