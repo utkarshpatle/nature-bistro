@@ -79,10 +79,10 @@ const menuCategories = [
   {
     name: "Italian Pastas",
     items: [
-      ["Red Sauce", "189"],
-      ["Pink Sauce", "189"],
-      ["White Sauce", "189"],
-      ["Indian Masala Pasta", "189"]
+      ["Red Sauce", "199"],
+      ["Pink Sauce", "199"],
+      ["White Sauce", "199"],
+      ["Indian Masala Pasta", "199"]
     ]
   },
   {
